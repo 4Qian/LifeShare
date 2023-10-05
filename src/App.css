@@ -1,0 +1,553 @@
+.app {
+  margin: 0.5rem;
+  min-height: 100vh;
+}
+
+.login-waiting {
+  font-family: Georgia;
+  font-weight: bold;
+  color: #FF66C4;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+}
+
+.login-guide {
+  margin-bottom: 1rem;
+  color: #c32cfa;
+}
+
+.content-login-page {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.discover-not-logged-in {
+  text-align: center;
+}
+
+.login {
+  margin-top: .5rem;
+  text-align: left;
+  margin-right: 1rem;
+}
+
+.login-form {
+  margin-bottom: .3rem;
+}
+
+.login-input {
+  min-height: 2rem;
+}
+
+.login-button {
+  background-color: #272727;
+  color: white;
+  width: fit-content;
+  padding: .5rem 1rem;
+  border: none;
+  cursor: pointer;
+  margin-left: .5rem;
+  font-family: Georgia;
+}
+
+.login-button:hover {
+  background-color: #BDA6C9;
+}
+
+.username-guide-text {
+  color: gray;
+}
+
+.status {
+  margin-top: 1.5rem;
+  color: red;
+}
+
+.discover-not-logged-in-title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.discover-not-logged-in-page .discover-page-title {
+  display: none;
+}
+
+.discover-not-logged-in-page .discover-page-guide {
+  display: none;
+}
+
+.discover-not-logged-in-page .discover-button-container {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.discover-not-logged-in-page .first-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem;
+  border: none;
+  cursor: pointer;
+  margin: 0.5rem;
+  width: fit-content;
+  padding: .5rem 1.2rem .5rem 1.2rem;
+}
+
+.discover-not-logged-in-page .first-button:hover {
+  background-color: #BDA6C9;
+}
+
+.discover-not-logged-in-page .previous-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0.5rem;
+}
+
+.discover-not-logged-in-page .previous-button:hover {
+  background-color: #BDA6C9;
+}
+
+.discover-not-logged-in-page .next-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem 1.3rem .5rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0.5rem;
+}
+
+.discover-not-logged-in-page .next-button:hover {
+  background-color: #BDA6C9;
+}
+
+.discover-not-logged-in-page .last-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0.5rem;
+}
+
+.discover-not-logged-in-page .last-button:hover {
+  background-color: #BDA6C9;
+}
+
+.menu {
+  padding: 1rem 1rem 0rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid;
+}
+
+.menu-item {
+  background-color: transparent;
+  padding: 1rem 1rem 1rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Georgia;
+  font-size: 1rem;
+}
+
+.menu-item:hover {
+  background-color: #c32cfa;
+  color: white;
+}
+
+.discover-page {
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+  min-height: 100%;
+  position: relative;
+}
+
+.discover-not-logged-in-page .discover-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.discover-page .discover-post {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discover-post-image {
+  width: 12rem;
+  height: 12rem;
+}
+
+.discover-post-title {
+  margin-top: .5rem;
+  margin-bottom: .3rem;
+}
+
+.discover-page-guide {
+  color: #c32cfa;
+  margin-bottom: 0.3rem;
+}
+
+.post-detail-page {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 2rem;
+}
+
+.post-detail {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  border-right: 1px solid black;
+  min-height: 100vh;
+}
+
+.post-detail-image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.post-detail h4 {
+  margin-bottom: 0rem;
+}
+
+.add-comment-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.title-guide {
+  color: gray;
+}
+
+.content-guide {
+  color: gray;
+}
+
+.submit-comment-button {
+  background-color: #c32cfa;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: Georgia;
+  width: fit-content;
+}
+
+.submit-comment-button:hover {
+  background-color: #BDA6C9;
+}
+
+.refresh-comments-button {
+  background-color: #c32cfa;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: Georgia;
+  width: fit-content;
+  margin-top: 2rem;
+}
+
+.refresh-comments-button:hover {
+  background-color: #BDA6C9;
+}
+
+.discover-page .first-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem;
+  border: none;
+  cursor: pointer;
+  margin: 0.5rem;
+  width: fit-content;
+  padding: .5rem 1.2rem .5rem 1.2rem;
+}
+
+.discover-page .first-button:hover {
+  background-color: #BDA6C9;
+}
+
+.discover-page .previous-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0.5rem;
+}
+
+.discover-page .previous-button:hover {
+  background-color: #BDA6C9;
+}
+
+.discover-page .next-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem 1.3rem .5rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0.5rem;
+}
+
+.discover-page .next-button:hover {
+  background-color: #BDA6C9;
+}
+
+.discover-page .last-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0.5rem;
+}
+
+.discover-page .last-button:hover {
+  background-color: #BDA6C9;
+}
+
+.discover-button-container {
+  position: fixed;
+  bottom: 0;
+  left: 70%;
+  transform: translateX(-50%);
+}
+
+.post-detail span {
+  margin-top: .5rem;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-text {
+  width: 90%;
+  margin-bottom: 0.5rem;
+}
+
+.comment-detail {
+  margin-top: 0.5rem;
+}
+
+.add-post {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.add-post-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.add-post-title-input {
+  margin-top: 2rem;
+}
+
+.add-post-content-input {
+  margin-top: 2rem;
+}
+
+.add-post-upload {
+  text-align: center;
+}
+
+.add-post-upload-button {
+  background-color: #c32cfa;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: Georgia;
+  width: fit-content;
+  margin-top: 2rem;
+}
+
+.add-post-upload-button:hover {
+  background-color: #BDA6C9;
+}
+
+.profile-page {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.profile-info {
+  margin-right: 2.5rem;
+}
+
+.profile-username {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  color: #c32cfa;
+}
+
+.profile-bio {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.profile-bio h5 {
+  margin-bottom: 1rem;
+  color: #c32cfa;
+}
+
+.bio-guide {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+.profile-bio-modify-button {
+  background-color: #272727;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-family: Georgia;
+  width: fit-content;
+  height: min-content;
+  margin-top: 1rem;
+  margin-left: .5rem;
+  font-size: 0.8rem;
+}
+
+.profile-bio-modify-button:hover {
+  background-color: #BDA6C9;
+  color: white;
+}
+
+.bio-change-input {
+  min-height: 2rem;
+  margin-right: .5rem;
+  margin-bottom: .3rem;
+}
+
+.bio-change-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem;
+  border: none;
+  cursor: pointer;
+  font-family: Georgia;
+  width: fit-content;
+  margin-right: .5rem;
+  margin-bottom: .3rem;
+}
+
+.bio-cancel-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem;
+  border: none;
+  cursor: pointer;
+  font-family: Georgia;
+  width: fit-content;
+  margin-bottom: .3rem;
+}
+
+.profile-my-posts-title {
+  font-family: Georgia;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.profile-my-posts-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.profile-my-posts {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  overflow-x: auto;
+}
+
+.profile-post-delete-guide {
+  color: gray;
+  font-size: .9rem;
+}
+
+.profile-image {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-post-detail {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  align-items: center;
+}
+
+.profile-post-detail h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-delete-button {
+  background-color: #272727;
+  color: white;
+  padding: .5rem;
+  border: none;
+  cursor: pointer;
+  font-family: Georgia;
+  width: fit-content;
+  margin-top: .5rem;
+}
+
+.profile-delete-button:hover {
+  background-color: #BDA6C9;
+}
+
+.profile-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-add-post-button {
+  background-color: #c32cfa;
+  color: white;
+  padding: .5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: Georgia;
+  width: fit-content;
+  margin-top: 2rem;
+}
